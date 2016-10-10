@@ -1,0 +1,12 @@
+{
+  "name": "sytw1617-merquililycony",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alu0100673647",
+  "license": "ISC",
+  "contributors": "[alu0100536690,alu0100762846]",
+  "description": ""
+}
