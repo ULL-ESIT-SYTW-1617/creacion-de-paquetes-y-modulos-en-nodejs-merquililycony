@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.git",
+    "url": "git+https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.git",
     "wiki": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.wiki.git"
   },
   "keywords": [
@@ -42,6 +42,6 @@
     "gulp-concat": "^2.6.0",
     "gitbook-plugin-youtube": "^1.1.0",
     "gulp-uglify": "^2.0.0"
-
-  }
+  },
+  "description": ""
 }
