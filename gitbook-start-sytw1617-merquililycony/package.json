@@ -3,10 +3,45 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "generate-gitbook": "./template/scripts/losh generate-gitbook",
+    "generate-wiki": "./template/scripts/losh generate-wiki",
+    "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
+    "deploy-gitbook": "./template/scripts/losh deploy-gitbook",
+    "deploy-wiki": "./template/scripts/losh deploy-wiki",
+    "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
+    "version": "./template/scripts/losh version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "alu0100673647",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.git",
+    "wiki": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.wiki.git"
+  },
+  "keywords": [
+    "gitbook",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Merquis-Lili-Cony",
+  "license": "MIT",
   "contributors": "[alu0100536690,alu0100762846]",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililyconyy#readme",
+  "devDependencies": {
+    "async": "^1.4.0",
+    "fs-extra": "^0.22.1",
+    "gh-pages": "^0.3.1",
+    "gitbook": "^2.1.0",
+    "gitbook-cli": "^0.3.4",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "gitbook-plugin-youtube": "^1.1.0",
+    "gulp-uglify": "^2.0.0"
+
+  }
 }
