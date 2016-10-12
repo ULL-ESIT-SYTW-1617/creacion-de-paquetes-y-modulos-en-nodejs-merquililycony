@@ -1,5 +1,5 @@
 {
-  "name": "vvvvv",
+  "name": "<%= name_gb %>",
   "version": "0.0.1",
   "description": "GitBook Boilerplate",
   "main": "index.js",

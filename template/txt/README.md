@@ -1,4 +1,4 @@
-# Book Title
+# <%= name_gb %>
 
 > Book introduction here.
 
