@@ -1,7 +1,10 @@
 {
   "name": "sytw1617-merquililycony",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "gitbook-start.js",
+  "bin": {
+    "gitbook-start": "./bin/gitbook-start.js"
+  },
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
     "generate-wiki": "./scripts/losh generate-wiki",
