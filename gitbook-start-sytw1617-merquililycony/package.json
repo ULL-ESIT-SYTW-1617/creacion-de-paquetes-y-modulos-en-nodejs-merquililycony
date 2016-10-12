@@ -39,8 +39,10 @@
     "gulp-shell": "^0.5.2"
   },
   "dependencies": {
-    "gulp-concat": "^2.6.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
     "gitbook-plugin-youtube": "^1.1.0",
+    "gulp-concat": "^2.6.0",
     "gulp-uglify": "^2.0.0"
   },
   "description": ""
