@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "generate-gitbook": "./template/scripts/losh generate-gitbook",
-    "generate-wiki": "./template/scripts/losh generate-wiki",
+    "generate-gitbook": "./scripts/losh generate-gitbook",
+    "generate-wiki": "./scripts/losh generate-wiki",
     "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
-    "deploy-gitbook": "./template/scripts/losh deploy-gitbook",
-    "deploy-wiki": "./template/scripts/losh deploy-wiki",
+    "deploy-gitbook": "./scripts/losh deploy-gitbook",
+    "deploy-wiki": "./scripts/losh deploy-wiki",
     "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
-    "version": "./template/scripts/losh version",
+    "version": "./scripts/losh version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
