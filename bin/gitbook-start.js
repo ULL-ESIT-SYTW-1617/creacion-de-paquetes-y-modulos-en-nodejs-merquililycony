@@ -13,6 +13,7 @@
     var name_gb; // para modificar el nombre del libro
     var url_b; // para modificar la url de los bugs
 
+    // Menu
     if(myargs.h || myargs.help){
       console.log("Help!");
       console.log("Comando: gitbook-start [opciones]");
@@ -20,4 +21,4 @@
       console.log("--author <nombre del autor>");
       console.log("--url <url del repo>");
       console.log("--urlb <url del bug>");
-    } 
+    }
