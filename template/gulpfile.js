@@ -10,17 +10,8 @@ gulp.task('deploy', function () {
 });
 
 
-/*gulp.task('prueba',function() {
-   return gulp.src('').pipe(shell(['gitbook build `pwd` ./gh-pages']));
-});
-*/
-
 //generar pdf
-gulp.task('pdf',
-  shell.task(
-    "gitbook pdf ./txt",
-    { verbose: true })
-);
+gulp.task('pdf',shell.task("gitbook pdf ./txt",{ verbose: true }));
 
 
 
