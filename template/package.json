@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/enten/gitbook-boilerplate.git",
+    "url": "<%= url_r %>",
     "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
   },
   "keywords": [
@@ -23,10 +23,10 @@
     "boilerplate",
     "starter"
   ],
-  "author": "Steven Enten <steven@enten.fr>",
+  "author": "<%= autor_name %>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/enten/gitbook-boilerplate/issues"
+    "url": "<%= url_b %>"
   },
   "homepage": "https://github.com/enten/gitbook-boilerplate#readme",
   "devDependencies": {
