@@ -27,7 +27,20 @@
   ],
   "author": "Merquis-Lili-Cony",
   "license": "MIT",
-  "contributors": "[alu0100536690,alu0100762846]",
+  "contributors": [
+    {
+      "name": "Merquis",
+      "email": "alu0100536690@ull.edu.es"
+      },
+      {
+      "name": "Liliana",
+      "email": "alu0100762846@ull.edu.es",
+    },
+    {
+      "name": "Constanza",
+      "email": "alu0100673647@ull.edu.es"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony/issues"
   },
@@ -42,6 +55,7 @@
     "gulp-shell": "^0.5.2"
   },
   "dependencies": {
+    "app-module-path": "^2.1.0",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "fs.extra": "^1.3.2",
