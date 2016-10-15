@@ -4,6 +4,7 @@
     const fs = require('fs-extra'); // para poder hacer cp, mkdir rm -r
     const ejs = require('ejs'); // para la utilizacion de las plantillas
     const path = require('path'); // para la publicacion en npm
+    const basePath = process.cwd();
     const myargs = require('minimist')(process.argv.slice(2));// para coger a partir del segundo argumento en adelante
     const json = require(path.join(__dirname,'../package.json'));
     const gitconfig = require('git-config');
