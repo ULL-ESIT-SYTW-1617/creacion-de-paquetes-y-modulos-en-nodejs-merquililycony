@@ -3,11 +3,23 @@
  *El objetivo de esta práctica es crear un package NodeJS y publicarlo en npm.
  El paquete se construye a partir de el código que haya desarrollado en la práctica anterior.*
 
+## Pasos:
+
+* Para instalar el módulo:
+  ~~~
+    $ npm install -g sytw1617-merquililycony
+  ~~~
+
+* Para ejecturar:
+  ~~~
+    $ gitbook-start [opciones]
+  ~~~
+
 ## Enlaces :
 
  **Enlace al campus virtual**
 
- * [Enunciado] (https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicanm.html)
+ * [Enunciado](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicanm.html)
 
  **Repositorio GitHuB donde se realizó la práctica**
 

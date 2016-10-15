@@ -1,6 +1,6 @@
 {
   "name": "sytw1617-merquililycony",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "main": "gitbook-start.js",
   "bin": {
     "gitbook-start": "./bin/gitbook-start.js"
@@ -34,7 +34,7 @@
       },
       {
       "name": "Liliana",
-      "email": "alu0100762846@ull.edu.es",
+      "email": "alu0100762846@ull.edu.es"
     },
     {
       "name": "Constanza",
