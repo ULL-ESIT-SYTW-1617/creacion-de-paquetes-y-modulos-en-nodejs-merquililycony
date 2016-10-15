@@ -17,6 +17,7 @@
     if(myargs.h || myargs.help){
       console.log("Help!");
       console.log("Comando: gitbook-start [opciones]");
+      console.log("--d < crear directorio>");
       console.log("--name <nombre del gitbook>");
       console.log("--author <nombre del autor>");
       console.log("--url <url del repo>");
