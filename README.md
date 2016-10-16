@@ -29,7 +29,7 @@
 
  * [gh-pages](https://ull-esit-sytw-1617.github.io/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony/)
 
- * [npm](https://www.npmjs.com/package/gitbook-start-sytw1617-merquililycony)
+ * [npm](https://www.npmjs.com/package/sytw1617-merquililycony)
 
  **Página de los autores**
 
