@@ -16,6 +16,11 @@
     var name_gb; // para modificar el nombre del libro
     var url_b; // para modificar la url de los bugs
 
+    if(myArgs.v || myArgs.version)
+    {
+        console.log("Version:"+json.version);
+    }
+
     // Menu
     if (myargs.h || myargs.help) {
       console.log("Help!");
