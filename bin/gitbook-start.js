@@ -16,9 +16,17 @@
     var n_gitbook; // para modificar el nombre del libro
     var url-b; // para modificar la url de los bugs
 
+<<<<<<< HEAD
     if( myargs.v || myargs.version){
       console.log("version:"+json.version);
     }
+=======
+    if(myargs.v || myargs.version)
+    {
+        console.log("Version:"+json.version);
+    }
+
+>>>>>>> 172ef0420d77a04233dbc9cdb55dc9860f2945eb
     // Menu
     if (myargs.h || myargs.help) {
       console.log("Help!");
