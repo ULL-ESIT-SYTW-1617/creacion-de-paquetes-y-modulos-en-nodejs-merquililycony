@@ -36,9 +36,9 @@
 //
     } else {
         gitconfig(function(err,config){
-          if(err)
+          if(err){
             console.error(err);
-
+          }
             autor = myargs.author || "User";
             dir = myargs.d || 'MyBook';
             n_gitbook = myargs.name || "MyBook";
@@ -46,9 +46,10 @@
             if(myargs.url){
               url-r = myargs.url;
               url-b = myargs.url.split(".git")[0].concat('/issues');
-            } else {
-              url-r = "";
-              url-b = "";
+            }
+            else {
+              url-r = " ";
+              url-b = " ";
             }
 
           // Construccion de MyBook

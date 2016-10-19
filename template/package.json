@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "<%= url_r %>",
+    "url": "<%= url %>",
     "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
   },
   "keywords": [
@@ -28,19 +28,19 @@
   "bugs": {
     "url": "<%= url_b %>"
   },
-  "homepage": "https://github.com/enten/gitbook-boilerplate#readme",
+  "homepage": "<%= url %>",
   "devDependencies": {
     "async": "^1.4.0",
-    "fs-extra": "^0.22.1",
-    "gh-pages": "^0.3.1",
-    "gitbook-cli": "^0.3.4",
-    "gitbook": "^2.1.0",
-    "gulp": "^3.9.1",
-    "gulp-shell": "^0.5.2",
-    "gulp-watch": "^4.3.10",
-    "gulp-install": "^0.6.0",
-    "gulp-git": "^1.11.3",
-    "gulp-run": "^1.7.1",
-    "simple-git": "^1.54.0"
+   "fs-extra": "^0.22.1",
+   "gh-pages": "^0.3.1",
+   "gitbook": "^2.1.0",
+   "gitbook-cli": "^0.3.4",
+   "gulp": "^3.9.1",
+   "gulp-shell": "^0.5.2",
+   "gulp-watch": "^4.3.10",
+   "gulp-install": "^0.6.0",
+   "gulp-git": "^1.11.3",
+   "gulp-run": "^1.7.1",
+   "simple-git": "^1.54.0"
   }
 }
