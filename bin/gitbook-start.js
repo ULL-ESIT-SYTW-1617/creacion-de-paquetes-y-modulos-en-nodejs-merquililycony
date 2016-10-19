@@ -45,18 +45,15 @@
             n_gitbook = myargs.name || "MyBook";
 
             if(myargs.url){
-              url-r = myargs.url;
-              url-b = myargs.url.split(".git")[0].concat('/issues');
-            }
-            else {
-              url-r = " ";
-              url-b = " ";
               url_r_ = myargs.url;
               url_b_ = myargs.url.split(".git")[0].concat('/issues');
-            } else {
-              url_r_ = "";
-              url_b_ = "";
             }
+            else {
+              url_r_ = " ";
+              url_b_ = " ";
+              url_r_ = myargs.url;
+              url_b_ = myargs.url.split(".git")[0].concat('/issues');
+            } 
 
           // Construccion de MyBook
             fs.mkdirp(path.join(basePath, dir), function(err){
