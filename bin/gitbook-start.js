@@ -12,9 +12,10 @@
 
     var dir; // para modificar el autor
     var autor;// para modificar el autor del libro
-    var url-r; // para modificar la url del repository
+    var url_r_; // para modificar la url del repository
     var n_gitbook; // para modificar el nombre del libro
-    var url-b; // para modificar la url de los bugs
+    var url_b_; // para modificar la url de los bugs
+    var url_wiki_;
 
     if( myargs.v || myargs.version){
       console.log("version:"+json.version);
@@ -44,11 +45,11 @@
             n_gitbook = myargs.name || "MyBook";
 
             if(myargs.url){
-              url-r = myargs.url;
-              url-b = myargs.url.split(".git")[0].concat('/issues');
+              url_r_ = myargs.url;
+              url_b_ = myargs.url.split(".git")[0].concat('/issues');
             } else {
-              url-r = "";
-              url-b = "";
+              url_r_ = "";
+              url_b_ = "";
             }
 
           // Construccion de MyBook
@@ -101,7 +102,7 @@
             });
 
             // Fichero package.json
-            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r: url-r, url_bugs: url-b,url_wiki: url_wiki}, function(err,str){
+            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r: url_r_, url_bugs: url_b_,url_wiki_: url_wiki_}, function(err,str){
               if(err){
                   console.error("ERROR:"+err);
                 }
