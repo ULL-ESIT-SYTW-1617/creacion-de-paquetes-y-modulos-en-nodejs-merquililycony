@@ -47,12 +47,12 @@
             if(myargs.url){
               url_r_ = myargs.url;
               url_b_ = myargs.url.split(".git")[0].concat('/issues');
+              url_wiki_ = myargs.url.split(".git")[0].concat('.wiki.git');
             }
             else {
               url_r_ = " ";
               url_b_ = " ";
-              url_r_ = myargs.url;
-              url_b_ = myargs.url.split(".git")[0].concat('/issues');
+              url_wiki_= " ";
             } 
 
           // Construccion de MyBook
@@ -105,7 +105,7 @@
             });
 
             // Fichero package.json
-            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r: url_r_, url_bugs: url_b_,url_wiki_: url_wiki_}, function(err,str){
+            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r_: url_r_, url_b_: url_b_,url_wiki_: url_wiki_}, function(err,str){
               if(err){
                   console.error("ERROR:"+err);
                 }
