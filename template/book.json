@@ -5,6 +5,12 @@
     "title": "<%= name_gb %>",
     "author": "<%= autor_name %>",
     "language": "es",
-    "plugins" : [""]
+    "plugins": [],
+    "structure": {
+        "readme": "README.md"
+    },
+    "pluginsConfig": {
+
+    }
 
 }
