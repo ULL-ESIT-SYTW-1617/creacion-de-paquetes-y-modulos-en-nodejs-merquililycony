@@ -16,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "<%= url %>",
-    "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
+    "wiki": "<%= url_wiki %>"
   },
   "keywords": [
     "gitbook",
@@ -41,6 +41,7 @@
    "gulp-install": "^0.6.0",
    "gulp-git": "^1.11.3",
    "gulp-run": "^1.7.1",
-   "simple-git": "^1.54.0"
+   "simple-git": "^1.54.0",
+   "git-config": "2.14.12"
   }
 }

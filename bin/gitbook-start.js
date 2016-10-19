@@ -45,17 +45,14 @@
             n_gitbook = myargs.name || "MyBook";
 
             if(myargs.url){
-              url-r = myargs.url;
-              url-b = myargs.url.split(".git")[0].concat('/issues');
-            }
-            else {
-              url-r = " ";
-              url-b = " ";
               url_r_ = myargs.url;
+              url_wiki = myargs.url.split(".git")[0].concat('.wiki.git');
               url_b_ = myargs.url.split(".git")[0].concat('/issues');
-            } else {
-              url_r_ = "";
-              url_b_ = "";
+            }
+             else {
+              url_r_ = " ";
+              url_b_ = " ";
+              url_wiki_ = " ";
             }
 
           // Construccion de MyBook
@@ -108,7 +105,7 @@
             });
 
             // Fichero package.json
-            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r: url_r_, url_bugs: url_b_,url_wiki_: url_wiki_}, function(err,str){
+            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r: url_r_, url_bugs: url_b_,url_wiki: url_wiki_}, function(err,str){
               if(err){
                   console.error("ERROR:"+err);
                 }
