@@ -46,15 +46,14 @@
 
             if(myargs.url){
               url_r_ = myargs.url;
-              url_wiki = myargs.url.split(".git")[0].concat('.wiki.git');
+              url_wiki_ = myargs.url.split(".git")[0].concat('.wiki.git');
               url_b_ = myargs.url.split(".git")[0].concat('/issues');
             }
              else {
               url_r_ = " ";
               url_b_ = " ";
               url_wiki_ = " ";
-              url_wiki_ = myargs.url.split(".git")[0].concat('.wiki.git');
-          }
+             }
 
           // Construccion de MyBook
             fs.mkdirp(path.join(basePath, dir), function(err){
