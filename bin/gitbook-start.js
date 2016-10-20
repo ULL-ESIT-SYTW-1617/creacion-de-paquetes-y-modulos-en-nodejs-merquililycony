@@ -15,7 +15,7 @@
     var url_r_; // para modificar la url del repository
     var n_gitbook; // para modificar el nombre del libro
     var url_b_; // para modificar la url de los bugs
-    var url_wiki_;
+   // var url_wiki_;
 
     if( myargs.v || myargs.version){
       console.log("version:"+json.version);
@@ -52,7 +52,7 @@
              else {
               url_r_ = " ";
               url_b_ = " ";
-              url_wiki_ = " ";
+              //url_wiki_ = " ";
              }
 
           // Construccion de MyBook
@@ -106,7 +106,7 @@
 
             // Fichero package.json
 
-            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r_: url_r_, url_b_: url_b_,url_wiki: url_wiki_}, function(err,str){
+            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r_: url_r_, url_b_: url_b_}, function(err,str){
 
               if(err){
                   console.error("ERROR:"+err);

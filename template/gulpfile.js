@@ -11,7 +11,7 @@ gulp.task('deploy', function () {
       .pipe(shell(['./scripts/losh generate-gitbook']))
       .pipe(shell(['./scripts/losh generate-wiki']))
       .pipe(shell(['./scripts/losh deploy-gitbook']))
-      .pipe(shell(['./scripts/losh deploy-wiki']));
+     // .pipe(shell(['./scripts/losh deploy-wiki']));
 });
 
 gulp.task('default', ['deploy']);
