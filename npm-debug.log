@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v6.8.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/ubuntu/Documentos/Sources/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+10 info lifecycle sytw1617-merquililycony@1.2.0~prepublish: sytw1617-merquililycony@1.2.0
+11 silly lifecycle sytw1617-merquililycony@1.2.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package.tgz',
+12 verbose tar pack   '/home/ubuntu/Documentos/Sources/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony' ]
+13 verbose tarball /home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package.tgz
+14 verbose folder /home/ubuntu/Documentos/Sources/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony
+15 verbose addLocalTarball adding from inside cache /home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package.tgz
+16 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd sytw1617-merquililycony@1.2.0
+18 verbose afterAdd /home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package/package.json not in flight; writing
+19 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package/package.json written
+21 silly publish { name: 'sytw1617-merquililycony',
+21 silly publish   version: '1.2.0',
+21 silly publish   main: 'gitbook-start.js',
+21 silly publish   bin: { 'gitbook-start': './bin/gitbook-start.js' },
+21 silly publish   scripts:
+21 silly publish    { 'generate-gitbook': './scripts/losh generate-gitbook',
+21 silly publish      'generate-wiki': './scripts/losh generate-wiki',
+21 silly publish      build: 'npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki',
+21 silly publish      'deploy-gitbook': './scripts/losh deploy-gitbook',
+21 silly publish      'deploy-wiki': './scripts/losh deploy-wiki',
+21 silly publish      deploy: 'npm run build && npm run deploy-gitbook && npm run deploy-wiki',
+21 silly publish      version: './scripts/losh version',
+21 silly publish      test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.git',
+21 silly publish      wiki: 'https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony.wiki.git' },
+21 silly publish   keywords: [ 'gitbook', 'boilerplate', 'starter' ],
+21 silly publish   author: { name: 'Merquis-Lili-Cony' },
+21 silly publish   license: 'MIT',
+21 silly publish   contributors:
+21 silly publish    [ { name: 'Merquis', email: 'alu0100536690@ull.edu.es' },
+21 silly publish      { name: 'Liliana', email: 'alu0100762846@ull.edu.es' },
+21 silly publish      { name: 'Constanza', email: 'alu0100673647@ull.edu.es' } ],
+21 silly publish   bugs: { url: 'https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony/issues' },
+21 silly publish   homepage: 'https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililyconyy#readme',
+21 silly publish   dependencies:
+21 silly publish    { ejs: '^2.5.2',
+21 silly publish      'fs-extra': '^0.30.0',
+21 silly publish      'gh-pages': '^0.11.0',
+21 silly publish      'git-config': '0.0.7',
+21 silly publish      gulp: '^3.9.1',
+21 silly publish      'gulp-git': '^1.11.3',
+21 silly publish      'gulp-install': '^0.6.0',
+21 silly publish      'gulp-run': '^1.7.1',
+21 silly publish      'gulp-shell': '^0.5.2',
+21 silly publish      minimist: '^1.2.0',
+21 silly publish      'simple-git': '^1.54.0' },
+21 silly publish   readme: '# Práctica 2 : Creación de un Paquete NPM\n\n *El objetivo de esta práctica es crear un package NodeJS y publicarlo en npm.\n El paquete se construye a partir de el código que haya desarrollado en la práctica anterior.*\n\n## Pasos:\n\n* Para instalar el módulo:\n  ~~~\n    $ npm install -g sytw1617-merquililycony\n  ~~~\n\n* Para ejecturar:\n  ~~~\n    $ gitbook-start [opciones]\n  ~~~\n\n## Enlaces :\n\n **Enlace al campus virtual**\n\n * [Enunciado](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicanm.html)\n\n **Repositorio GitHuB donde se realizó la práctica**\n\n * [Organización](https://github.com/ULL-ESIT-SYTW-1617/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony/)\n\n **Enlace a Gh-pages**\n\n * [gh-pages](https://ull-esit-sytw-1617.github.io/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony/)\n\n * [npm](https://www.npmjs.com/package/sytw1617-merquililycony)\n\n **Página de los autores**\n\n * [Constanza](http://alu0100673647.github.io)\n * [Merquis](http://merquis.github.io)\n * [Liliana](https://alu0100762846.github.io)\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '3b8e3b691aa31cec7c4b4c737b769e84cea9134d',
+21 silly publish   description: '*El objetivo de esta práctica es crear un package NodeJS y publicarlo en npm.  El paquete se construye a partir de el código que haya desarrollado en la práctica anterior.*',
+21 silly publish   _id: 'sytw1617-merquililycony@1.2.0',
+21 silly publish   _shasum: '1f9e9d592266ea3ccce3d96d4763c8069dc48828',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name sytw1617-merquililycony
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'sytw1617-merquililycony',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'sytw1617-merquililycony',
+26 silly mapToRegistry   name: 'sytw1617-merquililycony',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/sytw1617-merquililycony
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/ubuntu/.npm/sytw1617-merquililycony/1.2.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/sytw1617-merquililycony
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 19:20:18
+33 verbose request using bearer token for auth
+34 verbose request id 52c866c6c19a38aa
+35 http request PUT https://registry.npmjs.org/sytw1617-merquililycony
+36 http 403 https://registry.npmjs.org/sytw1617-merquililycony
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 20 Oct 2016 18:20:20 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-lcy1127-LCY',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1476987619.293578,VS0,VE1043',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /home/ubuntu/.npm/registry.npmjs.org/sytw1617-merquililycony on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.2.0." : sytw1617-merquililycony
+40 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid sytw1617-merquililycony
+43 verbose cwd /home/ubuntu/Documentos/Sources/creacion-de-paquetes-y-modulos-en-nodejs-merquililycony
+44 error Linux 4.4.0-42-generic
+45 error argv "/usr/bin/nodejs" "/usr/bin/npm" "publish"
+46 error node v6.8.0
+47 error npm  v3.10.8
+48 error code E403
+49 error "You cannot publish over the previously published version 1.2.0." : sytw1617-merquililycony
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
