@@ -1,6 +1,6 @@
 {
   "name": "sytw1617-merquililycony",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "main": "gitbook-start.js",
   "bin": {
     "gitbook-start": "./bin/gitbook-start.js"
