@@ -106,11 +106,9 @@
             });
 
             // Fichero package.json
-<<<<<<< HEAD
-            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r: url_r_, url_bugs: url_b_,url_wiki: url_wiki_}, function(err,str){
-=======
+
             ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r_: url_r_, url_b_: url_b_,url_wiki_: url_wiki_}, function(err,str){
->>>>>>> 2ea3f781ec374881020a016222867e154ba56d0e
+
               if(err){
                   console.error("ERROR:"+err);
                 }
