@@ -46,7 +46,7 @@
 
             if(myargs.url){
               url_r_ = myargs.url;
-              url_wiki_ = myargs.url.split(".git")[0].concat('.wiki.git');
+             // url_wiki_ = myargs.url.split(".git")[0].concat('.wiki.git');
               url_b_ = myargs.url.split(".git")[0].concat('/issues');
             }
              else {
@@ -106,7 +106,7 @@
 
             // Fichero package.json
 
-            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r_: url_r_, url_b_: url_b_,url_wiki_: url_wiki_}, function(err,str){
+            ejs.renderFile(path.join(__dirname, '../template', 'package.ejs'), { autor_name: autor , name_gitbook: n_gitbook, url_r_: url_r_, url_b_: url_b_,url_wiki: url_wiki_}, function(err,str){
 
               if(err){
                   console.error("ERROR:"+err);
