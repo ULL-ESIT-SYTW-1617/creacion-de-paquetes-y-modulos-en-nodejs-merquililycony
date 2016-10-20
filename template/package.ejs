@@ -1,0 +1,46 @@
+{
+  "name": "<%= name_gb %>",
+  "version": "0.0.1",
+  "description": "GitBook Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "generate-gitbook": "./scripts/losh generate-gitbook",
+    "generate-wiki": "./scripts/losh generate-wiki",
+    "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
+    "deploy-gitbook": "./scripts/losh deploy-gitbook",
+    "deploy-wiki": "./scripts/losh deploy-wiki",
+    "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
+    "version": "./scripts/losh version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%= url %>",
+    "wiki": "<%= url_wiki %>"
+  },
+  "keywords": [
+    "gitbook",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "<%= autor_name %>",
+  "license": "MIT",
+  "bugs": {
+    "url": "<%= url_b %>"
+  },
+  "homepage": "<%= url %>",
+  "dependencies": {
+    "async": "^1.4.0",
+    "fs-extra": "^0.22.1",
+    "gh-pages": "^0.3.1",
+    "gitbook": "^2.1.0",
+    "gitbook-cli": "^0.3.4",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-watch": "^4.3.10",
+    "gulp-install": "^0.6.0",
+    "gulp-git": "^1.11.3",
+    "gulp-run": "^1.7.1",
+    "simple-git": "^1.54.0"
+  }
+}

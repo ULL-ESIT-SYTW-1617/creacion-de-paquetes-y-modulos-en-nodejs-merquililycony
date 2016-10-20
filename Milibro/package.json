@@ -1,7 +1,7 @@
 {
-  "name": "<%= name_gb %>",
+  "name": "Milibro",
   "version": "0.0.1",
-  "description": "GitBook Boilerplate",
+  "description": "Gitbook",
   "main": "index.js",
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
@@ -15,33 +15,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "<%= url %>",
-    "wiki": "<%= url_wiki %>"
+    "url": " ",
+    "wiki": " "
   },
   "keywords": [
     "gitbook",
     "boilerplate",
     "starter"
   ],
-  "author": "<%= autor_name %>",
+  "author": "Merquis Jesús Cruz Veloz",
   "license": "MIT",
   "bugs": {
-    "url": "<%= url_b %>"
+    "url": " "
   },
-  "homepage": "<%= url %>",
-  "devDependencies": {
+  "homepage": " ",
+  "dependencies": {
     "async": "^1.4.0",
-   "fs-extra": "^0.22.1",
-   "gh-pages": "^0.3.1",
-   "gitbook": "^2.1.0",
-   "gitbook-cli": "^0.3.4",
-   "gulp": "^3.9.1",
-   "gulp-shell": "^0.5.2",
-   "gulp-watch": "^4.3.10",
-   "gulp-install": "^0.6.0",
-   "gulp-git": "^1.11.3",
-   "gulp-run": "^1.7.1",
-   "simple-git": "^1.54.0",
-   "git-config": "2.14.12"
+    "express": "~4.13.4",
+    "express-ejs-layouts": "^2.2.0",
+    "fs-extra": "^0.22.1",
+    "gh-pages": "^0.3.1",
+    "gitbook": "^2.1.0",
+    "gitbook-cli": "^0.3.4",
+    "gitbook-plugin-bootstrap-callout": "^0.1.1",
+    "gitbook-plugin-exercises": "^2.1.1",
+    "gitbook-plugin-youtube": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-watch": "^4.3.10",
+    "gulp-install": "^0.6.0",
+    "gulp-git": "^1.11.3",
+    "gulp-run": "^1.7.1",
+    "gulp-gh-pages": "^0.5.4",
+    "path": "^0.12.7",
+    "simple-git": "^1.54.0"
   }
 }
