@@ -14,6 +14,7 @@
   ~~~
     $ gitbook-start [opciones]
   ~~~
+* Opciones: -d <directorio> --name <nombre del gitbook> --author <nombre del autor> --url <url del repositorio> --version
 
 ## Enlaces :
 
